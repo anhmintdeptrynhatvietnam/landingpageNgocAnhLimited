@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Công ty TNHH Vận tải và Xây dựng Ngọc Anh – Chuyên xây dựng dân sự, thầu xây dựng, vận tải đất cát, san lấp mặt bằng. Uy tín – Chất lượng – Đúng tiến độ." />
+  <meta name="keywords" content="xây dựng ngọc anh, vận tải ngọc anh, san lấp mặt bằng, xe ben, thầu xây dựng, chìa khóa trao tay" />
+  <meta property="og:title" content="Ngọc Anh – Vận Tải & Xây Dựng" />
+  <meta property="og:description" content="Xây Nền Vững Chắc – Kiến Tạo Tương Lai. Chuyên thầu xây dựng, vận tải, san lấp mặt bằng uy tín." />
+  <meta property="og:type" content="website" />
+  <title>Ngọc Anh | Vận Tải &amp; Xây Dựng – Uy Tín – Đẳng Cấp – Vững Chắc</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+<!-- ══════════════════════════════════
+     NAVIGATION / HEADER
+══════════════════════════════════ -->
+<header id="header">
+  <div class="container">
+    <nav class="nav-inner">
+
+      <!-- Logo -->
+      <a href="#hero" class="nav-logo" aria-label="Ngọc Anh – Trang chủ">
+        <!-- SVG Logo Icon -->
+        <svg class="nav-logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="40" height="40" rx="6" fill="#C9A84C" opacity="0.12"/>
+          <polygon points="20,6 34,14 34,26 20,34 6,26 6,14" stroke="#C9A84C" stroke-width="1.5" fill="none"/>
+          <path d="M13 22 L20 12 L27 22" stroke="#C9A84C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          <path d="M16 22 L24 22" stroke="#C9A84C" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+        <div class="nav-logo-text">
+          <span class="nav-logo-main">Ngọc Anh</span>
+          <span class="nav-logo-sub">Vận Tải &amp; Xây Dựng</span>
+        </div>
+      </a>
+
+      <!-- Desktop Links -->
+      <ul class="nav-links">
+        <li><a href="#about">Giới Thiệu</a></li>
+        <li><a href="#services">Dịch Vụ</a></li>
+        <li><a href="#fleet">Đội Xe</a></li>
+        <li><a href="#projects">Dự Án</a></li>
+        <li><a href="#contact">Liên Hệ</a></li>
+      </ul>
+
+      <!-- CTA + Burger -->
+      <div style="display:flex;align-items:center;gap:1.2rem;">
+        <a href="#contact" class="nav-links nav-cta" id="nav-cta-btn">Nhận Báo Giá Ngay</a>
+        <button class="nav-burger" id="nav-burger" aria-label="Mở menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+    </nav>
+  </div>
+</header>
+
+<!-- Mobile Nav -->
+<nav class="nav-mobile" id="nav-mobile" aria-label="Menu điều hướng di động">
+  <a href="#about" class="nav-mobile-link">Giới Thiệu</a>
+  <a href="#services" class="nav-mobile-link">Dịch Vụ</a>
+  <a href="#fleet" class="nav-mobile-link">Đội Xe</a>
+  <a href="#projects" class="nav-mobile-link">Dự Án</a>
+  <a href="#contact" class="nav-mobile-link">Liên Hệ</a>
+  <a href="#contact" class="mobile-cta nav-mobile-link">Nhận Báo Giá Ngay →</a>
+</nav>
+
+<!-- ══════════════════════════════════
+     HERO SECTION
+══════════════════════════════════ -->
+<section id="hero" aria-label="Trang chủ Hero">
+  <div class="hero-bg">
+    <img
+      src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920&q=85&fit=crop"
+      alt="Công trường xây dựng hiện đại – Ngọc Anh"
+      loading="eager"
+      fetchpriority="high"
+    />
+  </div>
+  <div class="hero-overlay" aria-hidden="true"></div>
+
+  <div class="hero-content">
+    <div class="hero-badge" role="status">
+      <span class="hero-badge-dot" aria-hidden="true"></span>
+      Công ty TNHH Vận tải &amp; Xây dựng Ngọc Anh
+    </div>
+
+    <h1 class="hero-title">
+      <span class="line1">Xây Nền Vững Chắc</span>
+      <span class="line2">Kiến Tạo Tương Lai</span>
+    </h1>
+
+    <p class="hero-subtitle">
+      Chuyên xây dựng dân sự, thầu tổng, dịch vụ "Chìa Khóa Trao Tay" cùng vận tải &amp; san lấp mặt bằng quy mô lớn — uy tín hàng đầu khu vực.
+    </p>
+
+    <div class="hero-btns">
+      <a href="#services" class="btn-primary" id="hero-explore-btn">Khám Phá Dịch Vụ</a>
+      <a href="#contact" class="btn-outline" id="hero-contact-btn">Liên Hệ Tư Vấn</a>
+    </div>
+  </div>
+
+  <div class="hero-scroll" aria-hidden="true">
+    <div class="scroll-line"></div>
+    <span>Cuộn Xuống</span>
+  </div>
+
+  <!-- Stats Bar -->
+  <div class="hero-stats" role="complementary" aria-label="Thành tích nổi bật">
+    <div class="container">
+      <div class="hero-stats-inner">
+        <div class="hstat">
+          <div class="hstat-num">500<span style="font-size:1.4rem;">+</span></div>
+          <div class="hstat-label">Công Trình Hoàn Thiện</div>
+        </div>
+        <div class="hstat">
+          <div class="hstat-num">1.2M<span style="font-size:1.2rem;">m³</span></div>
+          <div class="hstat-label">Khối Lượng San Lấp</div>
+        </div>
+        <div class="hstat">
+          <div class="hstat-num">30<span style="font-size:1.4rem;">+</span></div>
+          <div class="hstat-label">Đầu Xe Tải Ben</div>
+        </div>
+        <div class="hstat">
+          <div class="hstat-num">15<span style="font-size:1.4rem;">+</span></div>
+          <div class="hstat-label">Năm Kinh Nghiệm</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     ABOUT SECTION
+══════════════════════════════════ -->
+<section id="about" class="section-pad" aria-labelledby="about-title">
+  <div class="container">
+    <div class="about-grid">
+
+      <!-- Image Column -->
+      <div class="about-image-wrap reveal-left">
+        <div class="about-image-frame">
+          <img
+            src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=900&q=85&fit=crop"
+            alt="Đội ngũ kỹ sư Ngọc Anh tại công trường"
+            loading="lazy"
+          />
+        </div>
+        <div class="about-accent-box">
+          <span class="about-accent-num">15+</span>
+          <span class="about-accent-text">Năm Kinh Nghiệm</span>
+        </div>
+      </div>
+
+      <!-- Content Column -->
+      <div class="about-content reveal-right">
+        <div class="tag-label">
+          <span class="gold-line" aria-hidden="true"></span>
+          Về Chúng Tôi
+        </div>
+        <h2 class="section-title" id="about-title">
+          Đối Tác Xây Dựng<br /><span>Tin Cậy Của Bạn</span>
+        </h2>
+        <p class="section-sub">
+          Công ty TNHH Vận tải và Xây dựng <strong style="color:var(--gold)">Ngọc Anh</strong> tự hào là đơn vị tiên phong trong lĩnh vực xây dựng dân sự và vận tải hạng nặng. Chúng tôi cam kết mang đến mỗi công trình một tiêu chuẩn hoàn hảo — đúng chất lượng, đúng tiến độ và đúng ngân sách.
+        </p>
+
+        <!-- Feature Highlights -->
+        <div class="about-features">
+          <div class="about-feature">
+            <div class="af-icon">
+              <svg viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+            </div>
+            <div class="af-text">
+              <h4>Cam Kết Chất Lượng Tuyệt Đối</h4>
+              <p>Sử dụng vật liệu đạt chuẩn, đội ngũ kỹ sư giàu kinh nghiệm, kiểm soát chất lượng chặt chẽ từng hạng mục.</p>
+            </div>
+          </div>
+          <div class="about-feature">
+            <div class="af-icon">
+              <svg viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+            </div>
+            <div class="af-text">
+              <h4>Tiến Độ Bàn Giao Đúng Hẹn</h4>
+              <p>Quy trình thi công được hoạch định khoa học, giám sát 24/7 để đảm bảo tiến độ như cam kết.</p>
+            </div>
+          </div>
+          <div class="about-feature">
+            <div class="af-icon">
+              <svg viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z"/>
+              </svg>
+            </div>
+            <div class="af-text">
+              <h4>Đội Ngũ Chuyên Nghiệp &amp; Tận Tâm</h4>
+              <p>Hơn 100 nhân sự từ kỹ sư, kiến trúc sư đến lái xe lành nghề, phối hợp nhịp nhàng trên mọi dự án.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Counters -->
+        <div class="counters-strip" role="list" aria-label="Thống kê thành tích">
+          <div class="counter-item" role="listitem">
+            <span class="counter-num" data-target="500" data-suffix="+">0</span>
+            <div class="counter-label">Công Trình Hoàn Thiện</div>
+          </div>
+          <div class="counter-item" role="listitem">
+            <span class="counter-num" data-target="1200000" data-suffix="m³" data-format="short">0</span>
+            <div class="counter-label">Khối Lượng San Lấp</div>
+          </div>
+          <div class="counter-item" role="listitem">
+            <span class="counter-num" data-target="30" data-suffix="+">0</span>
+            <div class="counter-label">Đầu Xe Tải Ben</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     SERVICES SECTION
+══════════════════════════════════ -->
+<section id="services" class="section-pad" aria-labelledby="services-title">
+  <div class="container">
+    <div class="services-header reveal">
+      <div class="tag-label" style="justify-content:center;">
+        <span class="gold-line" aria-hidden="true"></span>
+        Dịch Vụ Trọng Tâm
+      </div>
+      <h2 class="section-title" id="services-title">Giải Pháp Toàn Diện<br /><span>Cho Mọi Công Trình</span></h2>
+      <p class="section-sub">Từ thiết kế đến hoàn thiện, từ vận chuyển đến san lấp — chúng tôi đồng hành cùng bạn trên mọi bước.</p>
+    </div>
+
+    <div class="services-groups">
+      <!-- Group 1: Construction -->
+      <div>
+        <div class="service-group-title reveal">
+          <div class="sgt-line"></div>
+          <span class="sgt-label">— Nhóm 01 · Xây Dựng Cốt Lõi</span>
+          <div class="sgt-line"></div>
+        </div>
+        <div class="service-cards">
+
+          <div class="service-card reveal" style="transition-delay:0.05s">
+            <div class="sc-icon">
+              <!-- Home / House SVG -->
+              <svg viewBox="0 0 24 24"><path d="M3 9.5L12 3l9 6.5V21H3V9.5z"/><path d="M9 21V12h6v9"/></svg>
+            </div>
+            <h3 class="sc-title">Xây Dựng Nhà Phố &amp; Biệt Thự</h3>
+            <p class="sc-desc">Thi công nhà ở dân dụng, nhà phố, biệt thự từ 1 đến 5 tầng với kết cấu vững chắc, thẩm mỹ cao, đáp ứng mọi phong cách thiết kế.</p>
+            <div class="sc-tags">
+              <span class="sc-tag">Nhà phố</span>
+              <span class="sc-tag">Biệt thự</span>
+              <span class="sc-tag">Nhà vườn</span>
+            </div>
+          </div>
+
+          <div class="service-card featured reveal" style="transition-delay:0.12s">
+            <div class="sc-icon">
+              <!-- Building SVG -->
+              <svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="18"/><rect x="14" y="9" width="7" height="12"/><path d="M10 7h4"/><path d="M10 11h4"/><path d="M10 15h4"/></svg>
+            </div>
+            <h3 class="sc-title">Chung Cư &amp; Công Trình Cao Tầng</h3>
+            <p class="sc-desc">Thầu xây dựng chung cư cao cấp, văn phòng, khách sạn. Đội kỹ sư kinh nghiệm chuyên xử lý công trình quy mô lớn, kỹ thuật phức tạp.</p>
+            <div class="sc-tags">
+              <span class="sc-tag">Chung cư</span>
+              <span class="sc-tag">Văn phòng</span>
+              <span class="sc-tag">Khách sạn</span>
+            </div>
+          </div>
+
+          <div class="service-card reveal" style="transition-delay:0.2s">
+            <div class="sc-icon">
+              <!-- Key SVG -->
+              <svg viewBox="0 0 24 24"><circle cx="7.5" cy="15.5" r="5.5"/><path d="M21 2l-9 9"/><path d="M15 3l3 3"/><path d="M12 6l3 3"/></svg>
+            </div>
+            <h3 class="sc-title">Chìa Khóa Trao Tay (A–Z)</h3>
+            <p class="sc-desc">Dịch vụ trọn gói từ thiết kế, xin phép xây dựng, thi công đến hoàn thiện nội thất và bàn giao. Bạn chỉ cần nhận chìa khóa.</p>
+            <div class="sc-tags">
+              <span class="sc-tag">Trọn gói</span>
+              <span class="sc-tag">Thiết kế</span>
+              <span class="sc-tag">Nội thất</span>
+            </div>
+          </div>
+
+          <div class="service-card reveal" style="transition-delay:0.27s">
+            <div class="sc-icon">
+              <!-- Wrench SVG -->
+              <svg viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <h3 class="sc-title">Sửa Chữa &amp; Cải Tạo</h3>
+            <p class="sc-desc">Cải tạo, sửa chữa nhà ở, chung cư cũ. Nâng cấp hệ thống điện nước, ốp lát, sơn nước, chống thấm đảm bảo kỹ thuật và thẩm mỹ.</p>
+            <div class="sc-tags">
+              <span class="sc-tag">Cải tạo</span>
+              <span class="sc-tag">Chống thấm</span>
+              <span class="sc-tag">Hoàn thiện</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Group 2: Transport & Earthwork -->
+      <div>
+        <div class="service-group-title reveal">
+          <div class="sgt-line"></div>
+          <span class="sgt-label">— Nhóm 02 · Vận Tải &amp; San Lấp</span>
+          <div class="sgt-line"></div>
+        </div>
+        <div class="service-cards">
+
+          <div class="service-card reveal" style="transition-delay:0.05s">
+            <div class="sc-icon">
+              <!-- Truck SVG -->
+              <svg viewBox="0 0 24 24"><path d="M5 17H3a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v3"/><rect x="9" y="11" width="14" height="10" rx="2"/><circle cx="12" cy="21" r="1"/><circle cx="20" cy="21" r="1"/></svg>
+            </div>
+            <h3 class="sc-title">Vận Chuyển Đất, Cát &amp; Đá Base</h3>
+            <p class="sc-desc">Cung cấp dịch vụ vận chuyển đất đắp, cát xây, đá base, đá mi, phục vụ công trình xây dựng và san lấp với đội xe ben hùng hậu, tính cước minh bạch.</p>
+            <div class="sc-tags">
+              <span class="sc-tag">Chở đất</span>
+              <span class="sc-tag">Chở cát</span>
+              <span class="sc-tag">Đá base</span>
+            </div>
+          </div>
+
+          <div class="service-card featured reveal" style="transition-delay:0.12s">
+            <div class="sc-icon">
+              <!-- Layers/Land SVG -->
+              <svg viewBox="0 0 24 24"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+            </div>
+            <h3 class="sc-title">San Lấp Mặt Bằng</h3>
+            <p class="sc-desc">Nhận san lấp mặt bằng cho dự án nhà ở, khu công nghiệp, khu đô thị. Tính cước theo khối lượng (m³), có phiếu cân điện tử minh bạch, rõ ràng.</p>
+            <div class="sc-tags">
+              <span class="sc-tag">San lấp</span>
+              <span class="sc-tag">Mặt bằng</span>
+              <span class="sc-tag">Khu CN</span>
+            </div>
+          </div>
+
+          <div class="service-card reveal" style="transition-delay:0.2s">
+            <div class="sc-icon">
+              <!-- Chart / Measurement SVG -->
+              <svg viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M18 17V9"/><path d="M13 17V5"/><path d="M8 17v-3"/></svg>
+            </div>
+            <h3 class="sc-title">Đào &amp; Đắp Nền Móng</h3>
+            <p class="sc-desc">Thi công đào móng, đắp nền, lu lèn đất theo đúng hồ sơ kỹ thuật. Đảm bảo nền móng vững chắc, an toàn cho toàn bộ kết cấu phía trên.</p>
+            <div class="sc-tags">
+              <span class="sc-tag">Đào móng</span>
+              <span class="sc-tag">Đắp nền</span>
+              <span class="sc-tag">Lu lèn</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     FLEET / EQUIPMENT SECTION
+══════════════════════════════════ -->
+<section id="fleet" class="section-pad" aria-labelledby="fleet-title">
+  <div class="container">
+    <div class="fleet-header reveal">
+      <div class="tag-label" style="justify-content:center;">
+        <span class="gold-line" aria-hidden="true"></span>
+        Năng Lực Đội Xe
+      </div>
+      <h2 class="section-title" id="fleet-title">Đội "Chiến Mã"<br /><span>Hùng Hậu Của Ngọc Anh</span></h2>
+      <p class="section-sub">Toàn bộ xe tải ben 3 chân, 4 chân và mooc ben đời mới nhất — sẵn sàng phục vụ mọi quy mô dự án.</p>
+    </div>
+
+    <div class="fleet-slider-wrap reveal">
+      <div class="fleet-slider" id="fleet-slider" role="list" aria-label="Danh sách đội xe">
+
+        <div class="fleet-card" role="listitem">
+          <img
+            src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=800&q=85&fit=crop"
+            alt="Xe tải ben 4 chân đời mới – Ngọc Anh"
+            loading="lazy"
+          />
+          <div class="fleet-card-overlay" aria-hidden="true"></div>
+          <div class="fleet-card-info">
+            <span class="fleet-card-badge">Ben 4 Chân</span>
+            <div class="fleet-card-name">Xe Tải Ben 4 Chân</div>
+            <div class="fleet-card-desc">Tải trọng 18–22 tấn · Thùng ben thủy lực · Đời mới</div>
+          </div>
+        </div>
+
+        <div class="fleet-card" role="listitem">
+          <img
+            src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=85&fit=crop"
+            alt="Xe tải ben 3 chân – Ngọc Anh"
+            loading="lazy"
+          />
+          <div class="fleet-card-overlay" aria-hidden="true"></div>
+          <div class="fleet-card-info">
+            <span class="fleet-card-badge">Ben 3 Chân</span>
+            <div class="fleet-card-name">Xe Tải Ben 3 Chân</div>
+            <div class="fleet-card-desc">Tải trọng 12–15 tấn · Cơ động cao · Thích hợp đô thị</div>
+          </div>
+        </div>
+
+        <div class="fleet-card" role="listitem">
+          <img
+            src="https://images.unsplash.com/photo-1591768575198-88dac53fbd0a?w=800&q=85&fit=crop"
+            alt="Mooc ben đầu kéo – Ngọc Anh"
+            loading="lazy"
+          />
+          <div class="fleet-card-overlay" aria-hidden="true"></div>
+          <div class="fleet-card-info">
+            <span class="fleet-card-badge">Mooc Ben</span>
+            <div class="fleet-card-name">Đầu Kéo Mooc Ben</div>
+            <div class="fleet-card-desc">Tải trọng 25–30 tấn · Vận chuyển xa · Tiết kiệm chi phí</div>
+          </div>
+        </div>
+
+        <div class="fleet-card" role="listitem">
+          <img
+            src="https://images.unsplash.com/photo-1609429019995-8c40f49535a5?w=800&q=85&fit=crop"
+            alt="Xe tải trọng tải lớn tại công trường"
+            loading="lazy"
+          />
+          <div class="fleet-card-overlay" aria-hidden="true"></div>
+          <div class="fleet-card-info">
+            <span class="fleet-card-badge">Hỗ Trợ</span>
+            <div class="fleet-card-name">Xe Hỗ Trợ Thi Công</div>
+            <div class="fleet-card-desc">Xe cẩu, xe lu, máy xúc phục vụ công trình tổng hợp</div>
+          </div>
+        </div>
+
+        <div class="fleet-card" role="listitem">
+          <img
+            src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=85&fit=crop"
+            alt="Công trường san lấp mặt bằng lớn"
+            loading="lazy"
+          />
+          <div class="fleet-card-overlay" aria-hidden="true"></div>
+          <div class="fleet-card-info">
+            <span class="fleet-card-badge">Công Trường</span>
+            <div class="fleet-card-name">Hệ Thống Vận Hành</div>
+            <div class="fleet-card-desc">Điều phối GPS thông minh · Theo dõi hành trình real-time</div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Controls -->
+      <div class="fleet-controls" role="group" aria-label="Điều khiển slider đội xe">
+        <button class="fleet-btn" id="fleet-prev" aria-label="Xe trước">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <div class="fleet-dots" id="fleet-dots" role="tablist" aria-label="Điểm điều hướng slider"></div>
+        <button class="fleet-btn" id="fleet-next" aria-label="Xe tiếp theo">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     PROJECTS SECTION
+══════════════════════════════════ -->
+<section id="projects" class="section-pad" aria-labelledby="projects-title">
+  <div class="container">
+    <div class="projects-header reveal" style="text-align:center;margin-bottom:3.5rem;">
+      <div class="tag-label" style="justify-content:center;">
+        <span class="gold-line" aria-hidden="true"></span>
+        Dự Án Tiêu Biểu
+      </div>
+      <h2 class="section-title" id="projects-title">Những Công Trình<br /><span>Chúng Tôi Tự Hào</span></h2>
+      <p class="section-sub" style="margin:0 auto;">Minh chứng cho chất lượng, tâm huyết và uy tín mà Ngọc Anh đã xây dựng suốt hơn 15 năm qua.</p>
+    </div>
+
+    <div class="projects-grid" role="list" aria-label="Danh sách dự án tiêu biểu">
+
+      <div class="project-item reveal" style="transition-delay:0.05s" role="listitem">
+        <img
+          src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=900&q=85&fit=crop"
+          alt="Biệt thự cao cấp – Dự án hoàn thiện bởi Ngọc Anh"
+          loading="lazy"
+        />
+        <div class="project-overlay">
+          <div class="proj-cat">Xây Dựng Dân Sự</div>
+          <div class="proj-name">Biệt Thự Nhà Vườn Hiện Đại</div>
+          <div class="proj-loc">📍 TP. Hồ Chí Minh</div>
+        </div>
+      </div>
+
+      <div class="project-item reveal" style="transition-delay:0.1s" role="listitem">
+        <img
+          src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=600&q=85&fit=crop"
+          alt="Công trình chung cư cao tầng"
+          loading="lazy"
+        />
+        <div class="project-overlay">
+          <div class="proj-cat">Chung Cư Cao Tầng</div>
+          <div class="proj-name">Tòa Nhà Căn Hộ The Panorama</div>
+          <div class="proj-loc">📍 Bình Dương</div>
+        </div>
+      </div>
+
+      <div class="project-item reveal" style="transition-delay:0.15s" role="listitem">
+        <img
+          src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=700&q=85&fit=crop"
+          alt="San lấp mặt bằng khu công nghiệp"
+          loading="lazy"
+        />
+        <div class="project-overlay">
+          <div class="proj-cat">San Lấp Mặt Bằng</div>
+          <div class="proj-name">Khu Công Nghiệp Đông Nam</div>
+          <div class="proj-loc">📍 Đồng Nai</div>
+        </div>
+      </div>
+
+      <div class="project-item reveal" style="transition-delay:0.2s" role="listitem">
+        <img
+          src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=700&q=85&fit=crop"
+          alt="Nhà phố hoàn thiện nội thất cao cấp"
+          loading="lazy"
+        />
+        <div class="project-overlay">
+          <div class="proj-cat">Chìa Khóa Trao Tay</div>
+          <div class="proj-name">Nhà Phố Phong Cách Indochine</div>
+          <div class="proj-loc">📍 Long An</div>
+        </div>
+      </div>
+
+      <div class="project-item reveal" style="transition-delay:0.25s" role="listitem">
+        <img
+          src="https://images.unsplash.com/photo-1541123437800-1bb1317badc2?w=700&q=85&fit=crop"
+          alt="Nhà hiện đại hoàn thiện bởi đội ngũ Ngọc Anh"
+          loading="lazy"
+        />
+        <div class="project-overlay">
+          <div class="proj-cat">Xây Mới</div>
+          <div class="proj-name">Nhà Ở Hiện Đại 3 Tầng</div>
+          <div class="proj-loc">📍 Bình Dương</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     WHY US SECTION
+══════════════════════════════════ -->
+<section id="why-us" class="section-pad" aria-labelledby="whyus-title">
+  <div class="container">
+    <div class="why-grid">
+
+      <div class="why-image reveal-left">
+        <img
+          src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=900&q=85&fit=crop"
+          alt="Kỹ sư Ngọc Anh xem xét bản vẽ thiết kế tại công trường"
+          loading="lazy"
+        />
+        <div class="why-ribbon">Cam Kết Vàng</div>
+      </div>
+
+      <div class="reveal-right">
+        <div class="tag-label">
+          <span class="gold-line" aria-hidden="true"></span>
+          Tại Sao Chọn Chúng Tôi?
+        </div>
+        <h2 class="section-title" id="whyus-title">4 Lý Do<br /><span>Ngọc Anh Khác Biệt</span></h2>
+        <div class="why-points">
+          <div class="why-point">
+            <div class="wp-num">01</div>
+            <div class="wp-text">
+              <h4>Kinh Nghiệm Thực Chiến 15+ Năm</h4>
+              <p>Hàng trăm công trình từ nhà ở đến khu công nghiệp đã được hoàn thiện đúng tiến độ, đúng ngân sách trên nhiều tỉnh thành phía Nam.</p>
+            </div>
+          </div>
+          <div class="why-point">
+            <div class="wp-num">02</div>
+            <div class="wp-text">
+              <h4>Đội Xe &amp; Máy Móc Hiện Đại</h4>
+              <p>Sở hữu đội xe ben 3 chân, 4 chân, mooc ben đời mới, thiết bị luôn được bảo trì định kỳ, đảm bảo vận hành liên tục không gián đoạn.</p>
+            </div>
+          </div>
+          <div class="why-point">
+            <div class="wp-num">03</div>
+            <div class="wp-text">
+              <h4>Báo Giá Minh Bạch – Không Phát Sinh</h4>
+              <p>Tất cả hạng mục được thống nhất trước trong hợp đồng. Không có chi phí ẩn, không phát sinh ngoài dự toán đã ký.</p>
+            </div>
+          </div>
+          <div class="why-point">
+            <div class="wp-num">04</div>
+            <div class="wp-text">
+              <h4>Hậu Mãi &amp; Bảo Hành Tận Tâm</h4>
+              <p>Bảo hành công trình xây dựng lên đến 5 năm. Đội ngũ kỹ thuật hỗ trợ 24/7 sau khi bàn giao, đồng hành cùng bạn lâu dài.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     CONTACT SECTION
+══════════════════════════════════ -->
+<section id="contact" class="section-pad" aria-labelledby="contact-title">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:4rem;" class="reveal">
+      <div class="tag-label" style="justify-content:center;">
+        <span class="gold-line" aria-hidden="true"></span>
+        Liên Hệ Với Chúng Tôi
+      </div>
+      <h2 class="section-title" id="contact-title">Bắt Đầu Dự Án<br /><span>Của Bạn Ngay Hôm Nay</span></h2>
+      <p class="section-sub" style="margin:0 auto;">Để lại thông tin, đội ngũ tư vấn của Ngọc Anh sẽ liên hệ trong vòng 30 phút trong giờ hành chính.</p>
+    </div>
+
+    <div class="contact-grid">
+
+      <!-- Info Column -->
+      <div class="contact-info reveal-left">
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="ci-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg>
+            </div>
+            <div class="ci-data">
+              <h5>Hotline Tư Vấn</h5>
+              <a href="tel:+84xxxxxxxxx">0XX.XXX.XXXX</a>
+              <p style="font-size:0.8rem;color:var(--text-muted);margin-top:0.2rem;">Thứ 2 – Thứ 7, 7:00 – 18:00</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"/></svg>
+            </div>
+            <div class="ci-data">
+              <h5>Email</h5>
+              <a href="mailto:info@ngocanhgroup.vn">info@ngocanhgroup.vn</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"/><path d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"/></svg>
+            </div>
+            <div class="ci-data">
+              <h5>Địa Chỉ Văn Phòng</h5>
+              <p>Tỉnh Bình Dương, Việt Nam</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Map -->
+        <div class="contact-map" aria-label="Bản đồ vị trí văn phòng Ngọc Anh">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125413.34427827286!2d106.62681564!3d10.97837405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317568a5b5ed96fb%3A0x2e53da8cc29d74e2!2sBinh%20Duong%2C%20Vietnam!5e0!3m2!1sen!2s!4v1700000000000"
+            allowfullscreen
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Bản đồ vị trí Công ty TNHH Vận tải và Xây dựng Ngọc Anh"
+          ></iframe>
+        </div>
+      </div>
+
+      <!-- Form Column -->
+      <div class="contact-form-wrap reveal-right">
+        <form class="contact-form" id="contact-form" novalidate aria-label="Form liên hệ nhận báo giá">
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="f-name">Họ &amp; Tên *</label>
+              <input class="form-input" type="text" id="f-name" name="name" placeholder="Nguyễn Văn A" required autocomplete="name" />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="f-phone">Số Điện Thoại *</label>
+              <input class="form-input" type="tel" id="f-phone" name="phone" placeholder="09X XXX XXXX" required autocomplete="tel" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="f-email">Email</label>
+            <input class="form-input" type="email" id="f-email" name="email" placeholder="email@example.com" autocomplete="email" />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="f-service">Dịch Vụ Quan Tâm</label>
+            <select class="form-select" id="f-service" name="service">
+              <option value="">-- Chọn dịch vụ --</option>
+              <optgroup label="Xây Dựng">
+                <option value="nha-pho">Xây dựng nhà phố / biệt thự</option>
+                <option value="chung-cu">Xây dựng chung cư / cao tầng</option>
+                <option value="chiakhoatraotay">Trọn gói chìa khóa trao tay</option>
+                <option value="sua-chua">Sửa chữa / cải tạo</option>
+              </optgroup>
+              <optgroup label="Vận Tải &amp; San Lấp">
+                <option value="van-chuyen">Vận chuyển đất / cát / đá</option>
+                <option value="san-lap">San lấp mặt bằng</option>
+                <option value="dao-dap">Đào &amp; đắp nền móng</option>
+              </optgroup>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="f-message">Mô Tả Yêu Cầu</label>
+            <textarea class="form-textarea" id="f-message" name="message" placeholder="Mô tả ngắn về công trình / dự án của bạn (diện tích, địa điểm, yêu cầu đặc biệt…)"></textarea>
+          </div>
+          <button type="submit" class="form-submit" id="form-submit-btn">
+            Gửi Yêu Cầu Báo Giá Ngay →
+          </button>
+          <p class="form-note">🔒 Thông tin của bạn được bảo mật tuyệt đối. Chúng tôi sẽ phản hồi trong vòng 30 phút.</p>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     FOOTER
+══════════════════════════════════ -->
+<footer id="footer" role="contentinfo" aria-label="Chân trang">
+  <div class="container">
+    <div class="footer-main">
+
+      <!-- Brand -->
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <svg width="32" height="32" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+            <rect width="40" height="40" rx="6" fill="#C9A84C" opacity="0.12"/>
+            <polygon points="20,6 34,14 34,26 20,34 6,26 6,14" stroke="#C9A84C" stroke-width="1.5" fill="none"/>
+            <path d="M13 22 L20 12 L27 22" stroke="#C9A84C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          </svg>
+          <span class="footer-logo-main">Ngọc Anh</span>
+        </div>
+        <p class="footer-desc">
+          Công ty TNHH Vận tải và Xây dựng Ngọc Anh — Uy tín hơn 15 năm trong lĩnh vực xây dựng dân sự và vận tải hạng nặng tại miền Nam Việt Nam.
+        </p>
+        <div class="footer-socials">
+          <!-- Facebook -->
+          <a href="#" class="footer-social" aria-label="Facebook Ngọc Anh">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </a>
+          <!-- Zalo (Phone icon) -->
+          <a href="#" class="footer-social" aria-label="Zalo Ngọc Anh">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.22 1.18 2 2 0 012.2 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.72 6.72l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+          </a>
+          <!-- YouTube -->
+          <a href="#" class="footer-social" aria-label="YouTube Ngọc Anh">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 00-1.95 1.96A29 29 0 001 11.75a29 29 0 00.46 5.33A2.78 2.78 0 003.41 19.1C5.12 19.56 12 19.56 12 19.56s6.88 0 8.59-.46a2.78 2.78 0 001.95-1.96 29 29 0 00.46-5.25 29 29 0 00-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Links: Dịch Vụ -->
+      <div class="footer-col">
+        <h5>Dịch Vụ</h5>
+        <ul>
+          <li><a href="#services">Xây Nhà Phố</a></li>
+          <li><a href="#services">Chung Cư Cao Tầng</a></li>
+          <li><a href="#services">Chìa Khóa Trao Tay</a></li>
+          <li><a href="#services">Sửa Chữa Cải Tạo</a></li>
+          <li><a href="#services">Vận Tải Đất Cát</a></li>
+          <li><a href="#services">San Lấp Mặt Bằng</a></li>
+        </ul>
+      </div>
+
+      <!-- Links: Công Ty -->
+      <div class="footer-col">
+        <h5>Công Ty</h5>
+        <ul>
+          <li><a href="#about">Về Ngọc Anh</a></li>
+          <li><a href="#fleet">Đội Xe &amp; Thiết Bị</a></li>
+          <li><a href="#projects">Dự Án Tiêu Biểu</a></li>
+          <li><a href="#why-us">Tại Sao Chọn Chúng Tôi</a></li>
+          <li><a href="#contact">Liên Hệ</a></li>
+        </ul>
+      </div>
+
+      <!-- Links: Liên Hệ -->
+      <div class="footer-col">
+        <h5>Liên Hệ</h5>
+        <ul>
+          <li><a href="tel:+84xxxxxxxxx">📞 0XX.XXX.XXXX</a></li>
+          <li><a href="mailto:info@ngocanhgroup.vn">✉️ info@ngocanhgroup.vn</a></li>
+          <li><a href="#contact">📍 Bình Dương, Việt Nam</a></li>
+          <li><a href="#contact">🕐 T2–T7: 7:00 – 18:00</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-copy">
+        © 2024 <span>Công ty TNHH Vận tải và Xây dựng Ngọc Anh</span>. Bảo lưu mọi quyền.
+      </p>
+      <div class="footer-legal">
+        <a href="#">Chính Sách Bảo Mật</a>
+        <a href="#">Điều Khoản Sử Dụng</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to Top -->
+<button id="back-to-top" aria-label="Cuộn lên đầu trang">
+  <svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 15l-6-6-6 6"/>
+  </svg>
+</button>
+
+<script src="./script.js"></script>
+</body>
+</html>
