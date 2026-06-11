@@ -402,4 +402,35 @@
     }, { passive: true });
   }
 
+  /* ──────────────────────────────────────
+     10. BUSINESS REGISTRY TABS
+  ────────────────────────────────────── */
+  const registryTabBtns = document.querySelectorAll('.registry-tab-btn');
+  const registryPanels  = document.querySelectorAll('.registry-panel');
+
+  registryTabBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      // Deactivate all buttons
+      registryTabBtns.forEach(b => {
+        b.classList.remove('active');
+        b.setAttribute('aria-selected', 'false');
+      });
+      // Activate clicked button
+      btn.classList.add('active');
+      btn.setAttribute('aria-selected', 'true');
+
+      // Hide all panels
+      registryPanels.forEach(p => {
+        p.style.display = 'none';
+      });
+
+      // Show targeted panel
+      const targetId = btn.getAttribute('aria-controls');
+      const targetPanel = document.getElementById(targetId);
+      if (targetPanel) {
+        targetPanel.style.display = 'block';
+      }
+    });
+  });
+
 })();
